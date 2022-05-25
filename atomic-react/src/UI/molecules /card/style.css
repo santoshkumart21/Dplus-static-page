@@ -1,0 +1,14 @@
+.card {
+  /* width: 300px; */
+  margin: 0px;
+}
+.card-heading {
+  margin: auto;
+}
+.card-text {
+  color: rgb(165, 165, 165);
+}
+
+p {
+  font-weight: 600;
+}

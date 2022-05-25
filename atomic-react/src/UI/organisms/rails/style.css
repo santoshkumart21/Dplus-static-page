@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+}
+.rails {
+  display: flex;
+  flex-direction: row;
+  /* overflow: scroll; */
+  white-space: nowrap;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* margin: 0px 100px; */
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 14px 3px 0;
+  user-select: none;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0px 10px;
+  }
+  .rails {
+    overflow: auto;
+    /* scroll-behavior: smooth; */
+    /* margin: 0px 100px; */
+  }
+  /* .rails::-webkit-scrollbar {
+    display: none;
+  } */
+  .prev,
+  .next {
+    display: none;
+  }
+  img {
+    border-radius: 600px;
+    height: 30px;
+    width: 20px;
+  }
+}

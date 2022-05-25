@@ -1,0 +1,49 @@
+.template-block {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.nav-wrapper {
+  background-color: black;
+  padding: 20px 20px;
+  color: aliceblue;
+}
+.card-block {
+  border: 1px solid white;
+  margin-top: 50px;
+}
+
+.carousel-block {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .template-block {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .card-block {
+    border: 1px solid white;
+    margin: 50px 10px 0px 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .template-block {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card-block {
+    border: 1px solid white;
+    margin: 50px 0px 10px 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .template-block {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card-block {
+    border: 1px solid white;
+    margin: 50px 10px 0px 10px;
+  }
+}

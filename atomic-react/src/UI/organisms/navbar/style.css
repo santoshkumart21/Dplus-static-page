@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  height: 70px;
+  background-color: black;
+  right: 0;
+  left: 0;
+  top: 0;
+  padding: 0px 150px 0px 150px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.navbar-right {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  display: inline;
+}
+.list-row {
+  display: block;
+}
+
+@media screen and (max-width: 1300px) {
+  .list-row {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navbar {
+    padding: 0px 10px 0px 10px;
+  }
+  .navbar-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar {
+    padding: 0px 10px 0px 10px;
+  }
+  .navbar-right {
+    display: none;
+  }
+  .sign-in-button {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.search-box {
+  display: flex;
+  flex-direction: row;
+}
+.img-position {
+  position: relative;
+  right: 30px;
+  bottom: 2px;
+}
